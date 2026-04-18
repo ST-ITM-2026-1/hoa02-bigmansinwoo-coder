@@ -372,6 +372,53 @@ footer p {
     color: #999;
 }
 
+/* filter buttons */
+.filter-buttons {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.filter-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #555;
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    border-color: #1a7a3a;
+    color: #1a7a3a;
+}
+
+.filter-btn.active {
+    background-color: #1a7a3a;
+    color: #ffffff;
+    border-color: #1a7a3a;
+}
+
+/* dark theme - filter buttons */
+body.dark-theme .filter-btn {
+    background-color: #16213e;
+    border-color: #2a2a4a;
+    color: #b0b0b0;
+}
+
+body.dark-theme .filter-btn:hover {
+    border-color: #4ecca3;
+    color: #4ecca3;
+}
+
+body.dark-theme .filter-btn.active {
+    background-color: #4ecca3;
+    color: #1a1a2e;
+    border-color: #4ecca3;
+}
+
 /* tablet responsiveness */
 
 @media (max-width: 768px) {
