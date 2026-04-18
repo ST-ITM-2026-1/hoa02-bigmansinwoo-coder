@@ -489,4 +489,164 @@ footer p {
 }
 
 
+/* theme toggle button */
+#theme-toggle {
+    background-color: #1a7a3a;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#theme-toggle:hover {
+    background-color: #0f5427;
+}
+
+/* dark theme */
+body.dark-theme {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+}
+
+body.dark-theme header {
+    background-color: #16213e;
+    border-bottom-color: #2a2a4a;
+}
+
+body.dark-theme .nav-logo {
+    color: #4ecca3;
+}
+
+body.dark-theme .nav-links a {
+    color: #b0b0b0;
+}
+
+body.dark-theme .nav-links a:hover,
+body.dark-theme .nav-links a.active {
+    color: #4ecca3;
+    background-color: #2a2a4a;
+}
+
+body.dark-theme #theme-toggle {
+    background-color: #4ecca3;
+    color: #1a1a2e;
+}
+
+body.dark-theme .intro-greeting {
+    color: #4ecca3;
+}
+
+body.dark-theme .intro-role {
+    color: #4ecca3;
+}
+
+body.dark-theme .intro-desc {
+    color: #b0b0b0;
+}
+
+body.dark-theme .project-card {
+    background-color: #16213e;
+    border-color: #2a2a4a;
+}
+
+body.dark-theme .project-card:hover {
+    border-color: #4ecca3;
+}
+
+body.dark-theme .project-card p {
+    color: #b0b0b0;
+}
+
+body.dark-theme .tag {
+    background-color: #2a2a4a;
+    color: #4ecca3;
+}
+
+body.dark-theme .section-tag {
+    color: #4ecca3;
+}
+
+body.dark-theme .section-subtitle {
+    color: #888;
+}
+
+body.dark-theme footer {
+    border-top-color: #2a2a4a;
+}
+
+body.dark-theme footer p {
+    color: #666;
+}
+
+/* dark theme - skills page */
+body.dark-theme #skills li {
+    background-color: #16213e;
+    border-color: #2a2a4a;
+}
+
+body.dark-theme #skills li:hover {
+    border-color: #4ecca3;
+}
+
+body.dark-theme .skill-icon {
+    background-color: #2a2a4a;
+    color: #4ecca3;
+}
+
+body.dark-theme #skills li p {
+    color: #888;
+}
+
+/* dark theme - contact page */
+body.dark-theme #contact form {
+    background-color: #16213e;
+    border-color: #2a2a4a;
+}
+
+body.dark-theme .form-group label {
+    color: #e0e0e0;
+}
+
+body.dark-theme .form-group input,
+body.dark-theme .form-group textarea {
+    background-color: #1a1a2e;
+    border-color: #2a2a4a;
+    color: #e0e0e0;
+}
+
+body.dark-theme .form-group input:focus,
+body.dark-theme .form-group textarea:focus {
+    border-color: #4ecca3;
+}
+
+body.dark-theme #contact input[type="submit"] {
+    background-color: #4ecca3;
+    border-color: #4ecca3;
+    color: #1a1a2e;
+}
+
+body.dark-theme #contact input[type="submit"]:hover {
+    background-color: #3dab8a;
+    border-color: #3dab8a;
+}
+
+body.dark-theme .info-card {
+    background-color: #16213e;
+    border-color: #2a2a4a;
+}
+
+body.dark-theme .info-card:hover {
+    border-color: #4ecca3;
+}
+
+body.dark-theme .info-card h3 {
+    color: #4ecca3;
+}
+
+body.dark-theme .info-card p {
+    color: #b0b0b0;
+}
 
