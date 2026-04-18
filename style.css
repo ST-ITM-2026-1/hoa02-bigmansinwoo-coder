@@ -627,6 +627,15 @@ body.dark-theme .github-error {
     .form-row {
         flex-direction: column;
     }
+
+    .github-profile-card {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .repo-card {
+        width: 100%;
+    }
 }
 
 /*phone responsiveness*/
@@ -683,6 +692,15 @@ body.dark-theme .github-error {
     footer {
         padding: 20px 16px;
     }
+
+    .github-profile-card {
+    padding: 22px;
+    }
+
+    .github-stats {
+        flex-direction: column;
+        gap: 6px;
+    }   
 }
 
 
